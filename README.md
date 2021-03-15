@@ -1,6 +1,6 @@
 # QuestDB + SwiftNIO
 
-A QuestDB REST client designed to work with server-side Swift applications with `Codable` support.
+A [QuestDB](https://questdb.io) REST client designed to work with server-side Swift applications with `Codable` support.
 
 ## Install (SPM)
 
