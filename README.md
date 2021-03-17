@@ -73,7 +73,7 @@ client.execute(
 
 Many requests return a `QuestOperationResponse` object, so use it accordingly.
 
-You can further customize your request using the `ExecuteOptions` type, including `count`, `limit`, `nm`, and `timings`. Please refer to the [official QuestDb docs](https://questdb.io/docs/reference/api/rest#exec---execute-queries) for more information.
+You can further customize your request using the `ExecuteOptions` type, including `count`, `limit`, `nm`, and `timings`. Please refer to the [official QuestDB docs](https://questdb.io/docs/reference/api/rest#exec---execute-queries) for more information.
 
 ## Supported Endpoints
 
@@ -83,7 +83,7 @@ You can further customize your request using the `ExecuteOptions` type, includin
 
 ## Vapor + QuestDB
 
-If you plan to use this package with you Vapor 4 app, here are some snippets to get you started. We first create a service type inside `Application`:
+If you plan to use this package with a Vapor 4 app, here are some snippets to get you started. We first create a service type inside `Application`:
 
 ```swift
 import Vapor
@@ -144,7 +144,7 @@ extension Request {
 }
 ```
 
-Then when configuring your `app` instance:
+When configuring your `app` instance:
 
 ```swift
 let client = QuestDBClient(httpClient: app.http.client.shared)
